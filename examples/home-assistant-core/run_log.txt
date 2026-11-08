@@ -1,0 +1,151 @@
+DepWatch run log
+Command:          python -m depwatch scan examples/home-assistant-core/requirements.txt --output-dir examples/home-assistant-core
+Date (UTC):       2026-11-08T04:09:26Z
+DepWatch version: depwatch 1.0.0
+Python:           Python 3.11.0
+Source repo:      https://github.com/home-assistant/core
+Source commit:    c97172ccafa1672d9854d9b862598d4640999b0d
+Source file:      https://github.com/home-assistant/core/blob/c97172ccafa1672d9854d9b862598d4640999b0d/requirements.txt
+Exit code:        0
+
+----- full output -----
+DepWatch 1.0.0: scanning examples/home-assistant-core/requirements.txt (61 entries)
+  [1/61] -c homeassistant/package_constraints.txt: skipped (constraints file (-c); scan that file separately)
+  [2/61] aiodns==4.0.4: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [3/61] aiogithubapi==26.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [4/61] aiohttp-asyncmdnsresolver==0.2.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [5/61] aiohttp-fast-zlib==0.3.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [6/61] aiohttp==3.14.5: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [7/61] aiohttp-cors==0.8.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [8/61] aiozoneinfo==0.2.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [9/61] annotatedyaml==1.0.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [10/61] astral==2.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [11/61] async-interrupt==1.2.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [12/61] atomicwrites-homeassistant==1.4.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [13/61] attrs==26.1.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [14/61] audioop-lts==0.2.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [15/61] awesomeversion==25.8.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [16/61] bcrypt==5.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [17/61] certifi: unpinned (not an exact pin (>=2021.5.30))
+  [18/61] ciso8601==2.3.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [19/61] cronsim==2.7: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [20/61] cryptography==50.0.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [21/61] fnv-hash-fast==2.0.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [22/61] gazetteer-matcher==1.1.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [23/61] ha-ffmpeg==3.2.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [24/61] hass-nabucasa==2.8.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [25/61] hassil==3.12.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [26/61] home-assistant-bluetooth==2.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [27/61] home-assistant-intents==2026.10.27: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [28/61] httpx2==2.14.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [29/61] ifaddr==0.2.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [30/61] infrared-protocols==10.6.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [31/61] jinja2==3.1.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [32/61] lru-dict==1.4.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [33/61] mutagen==1.48.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [34/61] orjson==3.13.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [35/61] packaging: unpinned (not an exact pin (>=23.1))
+  [36/61] pillow==13.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [37/61] probatio==0.13.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [38/61] propcache==0.5.4: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [39/61] psutil-home-assistant==0.0.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [40/61] pyjwt==2.15.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [41/61] pymicro-vad==1.0.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [42/61] pyopenssl==26.4.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [43/61] pyserial==3.5: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [44/61] pyspeex-noise==1.0.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [45/61] python-slugify==9.1.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [46/61] pyturbojpeg==1.8.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [47/61] pyyaml==6.0.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [48/61] requests==2.34.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [49/61] rf-protocols==4.3.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [50/61] securetar==2026.10.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [51/61] sqlalchemy==2.1.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [52/61] standard-aifc==3.13.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [53/61] standard-telnetlib==3.13.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [54/61] truststore==0.10.4: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [55/61] typing-extensions: unpinned (not an exact pin (>=4.16.0,<5.0))
+  [56/61] ulid-transform==2.2.9: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [57/61] urllib3: unpinned (not an exact pin (>=2.0))
+  [58/61] uv==0.13.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [59/61] webrtc-models==0.3.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [60/61] yarl==1.25.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [61/61] zeroconf==0.152.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+
+                                 package    version         status severity score vuln_id fixed_versions summary
+                                  aiodns      4.0.4 no_known_vulns                                              
+                            aiogithubapi     26.0.0 no_known_vulns                                              
+                                 aiohttp     3.14.5 no_known_vulns                                              
+               aiohttp-asyncmdnsresolver      0.2.0 no_known_vulns                                              
+                            aiohttp-cors      0.8.1 no_known_vulns                                              
+                       aiohttp-fast-zlib      0.3.0 no_known_vulns                                              
+                             aiozoneinfo      0.2.3 no_known_vulns                                              
+                           annotatedyaml      1.0.2 no_known_vulns                                              
+                                  astral        2.2 no_known_vulns                                              
+                         async-interrupt      1.2.2 no_known_vulns                                              
+              atomicwrites-homeassistant      1.4.1 no_known_vulns                                              
+                                   attrs     26.1.0 no_known_vulns                                              
+                             audioop-lts      0.2.2 no_known_vulns                                              
+                          awesomeversion     25.8.0 no_known_vulns                                              
+                                  bcrypt      5.0.0 no_known_vulns                                              
+                                ciso8601      2.3.3 no_known_vulns                                              
+                                 cronsim        2.7 no_known_vulns                                              
+                            cryptography     50.0.2 no_known_vulns                                              
+                           fnv-hash-fast      2.0.3 no_known_vulns                                              
+                       gazetteer-matcher      1.1.0 no_known_vulns                                              
+                               ha-ffmpeg      3.2.2 no_known_vulns                                              
+                           hass-nabucasa      2.8.1 no_known_vulns                                              
+                                  hassil     3.12.1 no_known_vulns                                              
+                home-assistant-bluetooth      2.0.0 no_known_vulns                                              
+                  home-assistant-intents 2026.10.27 no_known_vulns                                              
+                                  httpx2     2.14.0 no_known_vulns                                              
+                                  ifaddr      0.2.0 no_known_vulns                                              
+                      infrared-protocols     10.6.0 no_known_vulns                                              
+                                  jinja2      3.1.6 no_known_vulns                                              
+                                lru-dict      1.4.1 no_known_vulns                                              
+                                 mutagen     1.48.1 no_known_vulns                                              
+                                  orjson     3.13.0 no_known_vulns                                              
+                                  pillow     13.0.0 no_known_vulns                                              
+                                probatio     0.13.0 no_known_vulns                                              
+                               propcache      0.5.4 no_known_vulns                                              
+                   psutil-home-assistant      0.0.1 no_known_vulns                                              
+                                   pyjwt     2.15.1 no_known_vulns                                              
+                             pymicro-vad      1.0.1 no_known_vulns                                              
+                               pyopenssl     26.4.0 no_known_vulns                                              
+                                pyserial        3.5 no_known_vulns                                              
+                           pyspeex-noise      1.0.2 no_known_vulns                                              
+                          python-slugify      9.1.3 no_known_vulns                                              
+                             pyturbojpeg      1.8.3 no_known_vulns                                              
+                                  pyyaml      6.0.3 no_known_vulns                                              
+                                requests     2.34.2 no_known_vulns                                              
+                            rf-protocols      4.3.0 no_known_vulns                                              
+                               securetar  2026.10.0 no_known_vulns                                              
+                              sqlalchemy      2.1.6 no_known_vulns                                              
+                           standard-aifc     3.13.0 no_known_vulns                                              
+                      standard-telnetlib     3.13.0 no_known_vulns                                              
+                              truststore     0.10.4 no_known_vulns                                              
+                          ulid-transform      2.2.9 no_known_vulns                                              
+                                      uv     0.13.6 no_known_vulns                                              
+                           webrtc-models      0.3.0 no_known_vulns                                              
+                                    yarl     1.25.1 no_known_vulns                                              
+                                zeroconf    0.152.0 no_known_vulns                                              
+                                 certifi                  unpinned                                              
+                               packaging                  unpinned                                              
+                       typing-extensions                  unpinned                                              
+                                 urllib3                  unpinned                                              
+-c homeassistant/package_constraints.txt                   skipped                                              
+
+CSV saved: examples\home-assistant-core\report.csv
+JSON saved: examples\home-assistant-core\report.json
+Chart skipped: no vulnerabilities to plot.
+
+Summary (61 packages/lines):
+  vulnerable      0
+  no_known_vulns  56
+  unpinned        4
+  skipped         1
+  error           0
+Findings by severity: Critical 0, High 0, Medium 0, Low 0, Unknown 0
+Note: 5 entries were not scanned (unpinned/skipped); see the report for reasons.
+Scan complete: all 56 pinned package(s) got an answer from OSV.
+Exit code: 0

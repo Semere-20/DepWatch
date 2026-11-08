@@ -1,0 +1,6 @@
+package,version,status,severity,score,severity_source,vuln_id,aliases,fixed_versions,summary,reason,line
+cryptography,,unpinned,,,,,,,,no version specified,8
+jinja2,,unpinned,,,,,,,,not an exact pin (>= 3.1.0),6
+packaging,,unpinned,,,,,,,,no version specified,9
+pyyaml,,unpinned,,,,,,,,not an exact pin (>= 5.1),7
+resolvelib,,unpinned,,,,,,,,"not an exact pin (>= 0.8.0, < 2.0.0)",15

@@ -1,0 +1,39 @@
+DepWatch run log
+Command:          python -m depwatch scan examples/ansible/requirements.txt --output-dir examples/ansible
+Date (UTC):       2026-11-08T04:09:36Z
+DepWatch version: depwatch 1.0.0
+Python:           Python 3.11.0
+Source repo:      https://github.com/ansible/ansible
+Source commit:    fd540eda9f96783955b227e84e229ca51f041cae
+Source file:      https://github.com/ansible/ansible/blob/fd540eda9f96783955b227e84e229ca51f041cae/requirements.txt
+Exit code:        0
+
+----- full output -----
+DepWatch 1.0.0: scanning examples/ansible/requirements.txt (5 entries)
+  [1/5] jinja2: unpinned (not an exact pin (>= 3.1.0))
+  [2/5] pyyaml: unpinned (not an exact pin (>= 5.1))
+  [3/5] cryptography: unpinned (no version specified)
+  [4/5] packaging: unpinned (no version specified)
+  [5/5] resolvelib: unpinned (not an exact pin (>= 0.8.0, < 2.0.0))
+
+     package version   status severity score vuln_id fixed_versions summary
+cryptography         unpinned                                              
+      jinja2         unpinned                                              
+   packaging         unpinned                                              
+      pyyaml         unpinned                                              
+  resolvelib         unpinned                                              
+
+CSV saved: examples\ansible\report.csv
+JSON saved: examples\ansible\report.json
+Chart skipped: no vulnerabilities to plot.
+
+Summary (5 packages/lines):
+  vulnerable      0
+  no_known_vulns  0
+  unpinned        5
+  skipped         0
+  error           0
+Findings by severity: Critical 0, High 0, Medium 0, Low 0, Unknown 0
+Note: 5 entries were not scanned (unpinned/skipped); see the report for reasons.
+WARNING: no package was checked against OSV (nothing was pinned with ==). This is not a clean result.
+Exit code: 0

@@ -1,0 +1,93 @@
+{
+  "tool": "depwatch",
+  "version": "1.0.0",
+  "scanned_file": "examples/ansible/requirements.txt",
+  "generated_at": "2026-11-08T04:09:36+00:00",
+  "scan_complete": true,
+  "status_counts": {
+    "vulnerable": 0,
+    "no_known_vulns": 0,
+    "unpinned": 5,
+    "skipped": 0,
+    "error": 0
+  },
+  "severity_counts": {
+    "Critical": 0,
+    "High": 0,
+    "Medium": 0,
+    "Low": 0,
+    "Unknown": 0
+  },
+  "rows": [
+    {
+      "package": "cryptography",
+      "version": "",
+      "status": "unpinned",
+      "severity": "",
+      "score": null,
+      "severity_source": "",
+      "vuln_id": "",
+      "aliases": "",
+      "fixed_versions": "",
+      "summary": "",
+      "reason": "no version specified",
+      "line": 8
+    },
+    {
+      "package": "jinja2",
+      "version": "",
+      "status": "unpinned",
+      "severity": "",
+      "score": null,
+      "severity_source": "",
+      "vuln_id": "",
+      "aliases": "",
+      "fixed_versions": "",
+      "summary": "",
+      "reason": "not an exact pin (>= 3.1.0)",
+      "line": 6
+    },
+    {
+      "package": "packaging",
+      "version": "",
+      "status": "unpinned",
+      "severity": "",
+      "score": null,
+      "severity_source": "",
+      "vuln_id": "",
+      "aliases": "",
+      "fixed_versions": "",
+      "summary": "",
+      "reason": "no version specified",
+      "line": 9
+    },
+    {
+      "package": "pyyaml",
+      "version": "",
+      "status": "unpinned",
+      "severity": "",
+      "score": null,
+      "severity_source": "",
+      "vuln_id": "",
+      "aliases": "",
+      "fixed_versions": "",
+      "summary": "",
+      "reason": "not an exact pin (>= 5.1)",
+      "line": 7
+    },
+    {
+      "package": "resolvelib",
+      "version": "",
+      "status": "unpinned",
+      "severity": "",
+      "score": null,
+      "severity_source": "",
+      "vuln_id": "",
+      "aliases": "",
+      "fixed_versions": "",
+      "summary": "",
+      "reason": "not an exact pin (>= 0.8.0, < 2.0.0)",
+      "line": 15
+    }
+  ]
+}

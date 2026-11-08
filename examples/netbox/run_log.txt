@@ -1,0 +1,118 @@
+DepWatch run log
+Command:          python -m depwatch scan examples/netbox/requirements.txt --output-dir examples/netbox
+Date (UTC):       2026-11-08T04:09:34Z
+DepWatch version: depwatch 1.0.0
+Python:           Python 3.11.0
+Source repo:      https://github.com/netbox-community/netbox
+Source commit:    40e422c84d63192d4646e77fd506e6fde48c4030
+Source file:      https://github.com/netbox-community/netbox/blob/40e422c84d63192d4646e77fd506e6fde48c4030/requirements.txt
+Exit code:        0
+
+----- full output -----
+DepWatch 1.0.0: scanning examples/netbox/requirements.txt (45 entries)
+  [1/45] colorama==0.4.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [2/45] django==6.1.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [3/45] django-cors-headers==4.9.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [4/45] django-debug-toolbar==8.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [5/45] django-filter==26.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [6/45] django-htmx==1.29.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [7/45] django-mptt==0.18.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [8/45] django-pgware==1.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [9/45] django-prometheus==2.4.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [10/45] django-redis==7.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [11/45] django-rich==2.2.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [12/45] django-rq==4.2.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [13/45] django-storages==1.14.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [14/45] django-tables2==3.0.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [15/45] django-taggit==6.1.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [16/45] django-timezone-field==7.2.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [17/45] djangorestframework==3.18.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [18/45] drf-spectacular==0.30.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [19/45] drf-spectacular-sidecar==2026.10.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [20/45] feedparser==6.0.14: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [21/45] gunicorn==26.2.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [22/45] jinja2==3.1.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [23/45] jsonschema==4.26.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [24/45] markdown==3.11.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [25/45] mkdocs==1.6.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [26/45] mkdocstrings==1.0.8: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [27/45] mkdocstrings-python==2.0.10: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [28/45] netaddr==1.3.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [29/45] nh3==0.3.7: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [30/45] pillow==13.0.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [31/45] psycopg==3.3.6: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [32/45] pymdown-extensions==12.1: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [33/45] pyyaml==6.0.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [34/45] redis==8.1.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [35/45] requests==2.34.2: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [36/45] rq==2.12.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [37/45] social-auth-app-django==6.1.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [38/45] social-auth-core==5.2.0: vulnerable (1 known vulnerability)
+  [39/45] sorl-thumbnail==13.4.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [40/45] strawberry-graphql==0.338.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [41/45] strawberry-graphql-django==0.93.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [42/45] svgwrite==1.4.3: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [43/45] tablib==3.10.0: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [44/45] tzdata==2026.5: no_known_vulns (OSV lists no known vulnerabilities for this version)
+  [45/45] zensical==0.0.73: no_known_vulns (OSV lists no known vulnerabilities for this version)
+
+                  package   version         status severity score             vuln_id fixed_versions                                                      summary
+         social-auth-core     5.2.0     vulnerable   Medium   6.8 GHSA-h2r5-x5m7-3935          6.2.0 Python Social Auth: OpenID Connect nonce is not bound to ...
+                 colorama     0.4.6 no_known_vulns                                                                                                               
+                   django     6.1.2 no_known_vulns                                                                                                               
+      django-cors-headers     4.9.0 no_known_vulns                                                                                                               
+     django-debug-toolbar     8.0.0 no_known_vulns                                                                                                               
+            django-filter      26.2 no_known_vulns                                                                                                               
+              django-htmx    1.29.0 no_known_vulns                                                                                                               
+              django-mptt    0.18.0 no_known_vulns                                                                                                               
+            django-pgware     1.0.0 no_known_vulns                                                                                                               
+        django-prometheus     2.4.0 no_known_vulns                                                                                                               
+             django-redis     7.0.0 no_known_vulns                                                                                                               
+              django-rich     2.2.0 no_known_vulns                                                                                                               
+                django-rq     4.2.0 no_known_vulns                                                                                                               
+          django-storages    1.14.6 no_known_vulns                                                                                                               
+           django-tables2     3.0.1 no_known_vulns                                                                                                               
+            django-taggit     6.1.0 no_known_vulns                                                                                                               
+    django-timezone-field     7.2.2 no_known_vulns                                                                                                               
+      djangorestframework    3.18.3 no_known_vulns                                                                                                               
+          drf-spectacular    0.30.0 no_known_vulns                                                                                                               
+  drf-spectacular-sidecar 2026.10.1 no_known_vulns                                                                                                               
+               feedparser    6.0.14 no_known_vulns                                                                                                               
+                 gunicorn    26.2.0 no_known_vulns                                                                                                               
+                   jinja2     3.1.6 no_known_vulns                                                                                                               
+               jsonschema    4.26.0 no_known_vulns                                                                                                               
+                 markdown    3.11.2 no_known_vulns                                                                                                               
+                   mkdocs     1.6.1 no_known_vulns                                                                                                               
+             mkdocstrings     1.0.8 no_known_vulns                                                                                                               
+      mkdocstrings-python    2.0.10 no_known_vulns                                                                                                               
+                  netaddr     1.3.0 no_known_vulns                                                                                                               
+                      nh3     0.3.7 no_known_vulns                                                                                                               
+                   pillow    13.0.0 no_known_vulns                                                                                                               
+                  psycopg     3.3.6 no_known_vulns                                                                                                               
+       pymdown-extensions      12.1 no_known_vulns                                                                                                               
+                   pyyaml     6.0.3 no_known_vulns                                                                                                               
+                    redis     8.1.0 no_known_vulns                                                                                                               
+                 requests    2.34.2 no_known_vulns                                                                                                               
+                       rq    2.12.0 no_known_vulns                                                                                                               
+   social-auth-app-django     6.1.0 no_known_vulns                                                                                                               
+           sorl-thumbnail    13.4.0 no_known_vulns                                                                                                               
+       strawberry-graphql   0.338.0 no_known_vulns                                                                                                               
+strawberry-graphql-django    0.93.0 no_known_vulns                                                                                                               
+                 svgwrite     1.4.3 no_known_vulns                                                                                                               
+                   tablib    3.10.0 no_known_vulns                                                                                                               
+                   tzdata    2026.5 no_known_vulns                                                                                                               
+                 zensical    0.0.73 no_known_vulns                                                                                                               
+
+CSV saved: examples\netbox\report.csv
+JSON saved: examples\netbox\report.json
+Chart saved: examples\netbox\chart.png
+
+Summary (45 packages/lines):
+  vulnerable      1
+  no_known_vulns  44
+  unpinned        0
+  skipped         0
+  error           0
+Findings by severity: Critical 0, High 0, Medium 1, Low 0, Unknown 0
+Scan complete: all 45 pinned package(s) got an answer from OSV.
+Exit code: 0
