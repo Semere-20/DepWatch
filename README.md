@@ -268,11 +268,3 @@ examples/          real scans of 5 public repos
 - **Base score only.** It does not consider whether your code actually calls the vulnerable function,
   or exploit activity (temporal/environmental CVSS, EPSS, CISA KEV).
 
-## Future ideas
-
-- Use OSV's `/v1/querybatch` endpoint to check many packages in one request.
-- Follow `-r` includes, and read `pyproject.toml` and lock files.
-- A CVSS v4 calculator.
-- Add EPSS / CISA KEV data to rank by "likely to be exploited", not only by severity.
-- Cache OSV answers for a short time so repeat scans are faster.
-- A `--fix` suggestion that prints the smallest upgrade that clears all findings.
