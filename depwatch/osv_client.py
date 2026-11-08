@@ -168,5 +168,5 @@ def make_session() -> requests.Session:
     """
     session = requests.Session()
     # Identify ourselves politely; servers like knowing which tool is calling.
-    session.headers["User-Agent"] = "depwatch (https://github.com/Semere-20/depwatch)"
+    session.headers["User-Agent"] = "depwatch (https://github.com/Semere-20/DepWatch)"
     return session
